@@ -11,11 +11,88 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>MobaLedLib Programm Generator</string>
   </property>
   <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuDatei">
+    <property name="title">
+     <string>Datei</string>
+    </property>
+    <addaction name="action_Neu"/>
+    <addaction name="action_ffnen"/>
+   </widget>
+   <widget class="QMenu" name="menuBearbeiten">
+    <property name="title">
+     <string>Bearbeiten</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuHilfe">
+    <property name="title">
+     <string>Hilfe</string>
+    </property>
+    <addaction name="action_Inhalt"/>
+    <addaction name="action_Bentutzerhandbuch"/>
+    <addaction name="separator"/>
+    <addaction name="actionMitmachen"/>
+    <addaction name="separator"/>
+    <addaction name="action_ber_MobaLedLib_Configurator"/>
+   </widget>
+   <widget class="QMenu" name="menuExtra">
+    <property name="title">
+     <string>Extras</string>
+    </property>
+    <addaction name="action_Protokoll_Auswahl"/>
+   </widget>
+   <addaction name="menuDatei"/>
+   <addaction name="menuBearbeiten"/>
+   <addaction name="menuExtra"/>
+   <addaction name="menuHilfe"/>
+  </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_Neu">
+   <property name="text">
+    <string>&amp;Neu</string>
+   </property>
+  </action>
+  <action name="action_ffnen">
+   <property name="text">
+    <string>&amp;Öffnen</string>
+   </property>
+  </action>
+  <action name="action_Protokoll_Auswahl">
+   <property name="text">
+    <string>&amp; Protokoll Auswahl</string>
+   </property>
+  </action>
+  <action name="action_Inhalt">
+   <property name="text">
+    <string>&amp;Inhalt</string>
+   </property>
+  </action>
+  <action name="action_Bentutzerhandbuch">
+   <property name="text">
+    <string>&amp;Bentutzerhandbuch</string>
+   </property>
+  </action>
+  <action name="action_ber_MobaLedLib_Configurator">
+   <property name="text">
+    <string>&amp;Über MobaLedLib Configurator</string>
+   </property>
+  </action>
+  <action name="actionMitmachen">
+   <property name="text">
+    <string>&amp;Mitmachen</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>

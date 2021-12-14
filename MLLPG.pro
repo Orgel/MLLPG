@@ -19,7 +19,7 @@ FORMS += \
     mainwindow.ui
 
 TRANSLATIONS += \
-    MobaLedLib_Configurator_de_DE.ts
+    MLLPG_de_DE.ts
 CONFIG += lrelease
 CONFIG += embed_translations
 
