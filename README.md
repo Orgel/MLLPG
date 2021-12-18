@@ -6,5 +6,5 @@ The desired functions can be selected and configured via an easy-to-use user int
 
 The effects can be started automatically or activated via a central unit. The following protocols / buses are currently supported: DCC, Selectrix and the Märklin CAN bus.
 
-A huge wiki describes the complete MobaLedLib in detail: https://wiki.mobaledlib.de/doku.php
-This library is used and supported by a big community, see https://www.stummiforum.de/viewtopic.php?f=7&t=165060. All software and hardware parts are free of license and avaiable for download.
+A huge wiki describes the complete MobaLedLib in detail: https://wiki.mobaledlib.de
+This library is used and supported by a big community, see https://www.stummiforum.de/t165060f7-MobaLedLib-LEDs-Servos-Sound-Achtung-Neue-Version-verfuegbar.html All software and hardware parts are free of license and avaiable for download.
