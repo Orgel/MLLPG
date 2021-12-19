@@ -23,73 +23,8 @@
      <height>26</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuDatei">
-    <property name="title">
-     <string>&amp;Datei</string>
-    </property>
-    <addaction name="action_Neu"/>
-    <addaction name="action_ffnen"/>
-    <addaction name="separator"/>
-   </widget>
-   <widget class="QMenu" name="menu_Bearbeiten">
-    <property name="title">
-     <string>&amp;Bearbeiten</string>
-    </property>
-   </widget>
-   <widget class="QMenu" name="menu_Ansicht">
-    <property name="title">
-     <string>An&amp;sicht</string>
-    </property>
-   </widget>
-   <widget class="QMenu" name="menu_Erstellen">
-    <property name="title">
-     <string>&amp;Erstellen</string>
-    </property>
-   </widget>
-   <widget class="QMenu" name="menuE_xtras">
-    <property name="title">
-     <string>E&amp;xtras</string>
-    </property>
-   </widget>
-   <widget class="QMenu" name="menu_Fenster">
-    <property name="title">
-     <string>&amp;Fenster</string>
-    </property>
-   </widget>
-   <widget class="QMenu" name="menu_Hilfe">
-    <property name="title">
-     <string>&amp;Hilfe</string>
-    </property>
-   </widget>
-   <addaction name="menuDatei"/>
-   <addaction name="menu_Bearbeiten"/>
-   <addaction name="menu_Ansicht"/>
-   <addaction name="menu_Erstellen"/>
-   <addaction name="menuE_xtras"/>
-   <addaction name="menu_Fenster"/>
-   <addaction name="menu_Hilfe"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
-  <action name="action_Neu">
-   <property name="text">
-    <string>&amp;Neu</string>
-   </property>
-  </action>
-  <action name="action_ffnen">
-   <property name="text">
-    <string>Datei oder Projekt &amp;öffnen</string>
-   </property>
-  </action>
-  <action name="action_Speichern">
-   <property name="text">
-    <string>&amp;Speichern</string>
-   </property>
-  </action>
-  <action name="actionSpeichenr_unter">
-   <property name="text">
-    <string>Speichern unter</string>
-   </property>
-  </action>
  </widget>
  <resources/>
  <connections/>
